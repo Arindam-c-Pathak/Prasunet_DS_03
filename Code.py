@@ -50,7 +50,7 @@ print(confusion_matrix(y_test, y_pred))
 
 
 # Plot the decision tree
-plt.figure(figsize=(200,100))
+plt.figure(figsize=(400,200))
 plot_tree(clf, filled=True, feature_names=X.columns, class_names=["unknown","other","failure","success"], rounded=True)
 plt.show()
 
